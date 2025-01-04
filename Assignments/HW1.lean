@@ -15,9 +15,9 @@ def abs : Int → Int
   | negSucc x => ofNat (succ x)
 
 
-theorem abs_pos : ∀ (j : Int),
-  True := by simp
-
+theorem abs_pos : ∀ (i : Int),
+  0 ≤ i → i = abs i := by
+  sorry
 
 
 theorem abs_neg : ∀ (i : Int),

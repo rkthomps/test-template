@@ -1,8 +1,8 @@
 {
   "name": "CSE 230 Winter 2025 Dev Container",
-  // "build": {
-  //   "dockerfile": "Dockerfile"
-  // },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "extensions": [

@@ -10,7 +10,7 @@ package "assignments" where
 
 require "leanprover-community" / "mathlib"
 
-require autograder from git "https://github.com/robertylewis/lean4-autograder-main" @ "master"
+require autograder from git "https://github.com/rkthomps/lean4-autograder-main" @ "master"
 
 @[default_target]
 lean_lib «Assignments» where

@@ -5,6 +5,9 @@
   },
   "customizations": {
     "vscode": {
+      "settings": {
+        "files.autoSave": "off"
+      },
       "extensions": [
         "leanprover.lean4",
         "KyleThompson.lean-vacuum"
